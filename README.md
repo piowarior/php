@@ -5,4 +5,4 @@ ini adalah direktori khususu untuk saya belajar pemrograman bahsa php di mulai d
 
 <br>
 
-```terimakasih kepada https://www.youtube.com/@sandhikagalihWPU telah membantu saya dalam memahami ilmu ini ```
+```terimakasih kepada``` https://www.youtube.com/@sandhikagalihWPU ```telah membantu saya dalam memahami ilmu ini ```
