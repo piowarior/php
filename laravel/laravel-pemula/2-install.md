@@ -212,6 +212,31 @@ Buka di browser:
 http://localhost:8000
 ```
 
+## kalo semisal di buka gak muncul laravel nya 
+
+- misal yang keluar apache 2 maka solusinya 
+
+```
+sudo systemctl stop apache2
+sudo systemctl disable apache2
+
+```
+
+- misal pas sudah di lakuin stop apche muncul eror permision maka:
+
+
+masuk ke container dockernya dengan mengetikan 
+
+```
+docker exec -it "nama container kamu (lihat di docker ps)"
+```
+
+```
+chown -R www-data:www-data /var/www
+chmod -R 755 /var/www
+```
+
+
 Kalau muncul halaman “Laravel”, berarti setup berhasil 🎉
 
 ---
