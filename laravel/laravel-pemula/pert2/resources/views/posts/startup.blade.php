@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="asset/global.css">
+    <link rel="stylesheet" href="{{ asset ('front/asset/global.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>web post</title>
 </head>
@@ -25,7 +25,7 @@
             <line x1="0.5" y1="2.18557e-08" x2="0.499996" y2="98" stroke="black"/>
             </svg>
             <p>BE HUMBLE</p>
-
+            <div class="kotak1"></div>
         </div>
         <div class="utama-kanan">
             <h1>BLOG SPHERE</h1>
@@ -34,8 +34,19 @@
         </div>
     </main>
 
-    <section class="bagian tengah 1">
-
+    <section class="bagian tengah1">
+        <div class="tengah1-kiri">
+            <ul>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">REFERENCE</a></li>
+            </ul>
+        </div>
+        <div class="tengah1-kanan">
+            <ul>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">GET STARTED</a></li>
+            </ul>
+        </div>
     </section>
 
     <script src="global.js"></script>
