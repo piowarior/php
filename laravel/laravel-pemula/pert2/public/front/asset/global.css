@@ -1,0 +1,103 @@
+@import url('/allbuild/post/asset/font/fonts.css');
+
+img,
+.utama-kanan img,
+.bagian img {
+    -webkit-user-drag: none;
+    user-drag: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    overscroll-behavior: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(/allbuild/post/asset/gambar/gambar\ latar\ belakang\ web\ post.jpg);
+    background-size: cover;
+}
+
+.bagian{
+    padding: 0px 98px;
+    
+}
+
+
+.kepala ul{
+    padding-left: 0px;
+    padding-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kepala ul li p{
+    font-family: 'Myriad Pro';
+    color: #333333;
+    font-weight: 400;
+    letter-spacing: 0.30em;
+    font-size: 13px;
+}
+
+/* main */
+
+.utama{
+    height: 700px;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.utama-kiri{
+    width: 100px;
+    
+
+    /* background-color: azure; */
+}
+
+.utama-kiri p{
+    position: relative;
+    left: -5px;
+    margin: 30px 0px 0px 0px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.30em;
+    font-family: 'Myriad Pro';
+    writing-mode: vertical-lr;
+    
+}
+
+.utama-kanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.utama-kanan h1{
+    position: relative;
+    margin-top: -150px;
+    font-family: Humane;
+    font-size: 600px;
+    color: white;
+
+}
+
+.utama-kanan h1::before{
+   content: '';
+   outline: 5px solid black;
+   color: black;
+
+}
+
+.utama-kanan img{
+    position: absolute;
+    width: 650px;
+    bottom: 0px;
+}
