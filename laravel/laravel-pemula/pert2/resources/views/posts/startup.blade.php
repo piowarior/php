@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset ('front/asset/global.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ asset ('front/asset/global.css') }}">
     <title>web post</title>
 </head>
 <body>
@@ -29,11 +29,11 @@
         </div>
         <div class="utama-kanan">
             <h1>BLOG SPHERE</h1>
-            <img src="/allbuild/post/asset/gambar/gambar cewek2.png" alt="">
+            <img src="{{asset ('front/asset/gambar/cewek vibe2.png') }}" alt="">
             <img src="/allbuild/post/asset/gambar/bayangan.png" alt="">
         </div>
     </main>
-
+  
     <section class="bagian tengah1">
         <div class="tengah1-kiri">
             <ul>
@@ -44,7 +44,7 @@
         <div class="tengah1-kanan">
             <ul>
                 <li><a href="">CONTACT</a></li>
-                <li><a href="">GET STARTED</a></li>
+                <li><a href="index.html">GET STARTED</a></li>
             </ul>
         </div>
     </section>
