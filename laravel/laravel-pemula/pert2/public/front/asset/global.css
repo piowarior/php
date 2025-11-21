@@ -20,7 +20,7 @@ html{
 body{
     margin: 0px;
     padding: 0px;
-    background: url(/front/asset/gambar/gambar-latar-belakang-web-post.png);
+    background: url(/front/asset/gambar/gambar-background.png);
     background-size: cover;
 }
 
@@ -147,7 +147,7 @@ body{
 }
 
 .tengah1 ul li a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(218, 0, 0);
     position: relative;
     top: -5px;
     transition: all 0.3s ease;
