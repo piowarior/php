@@ -30,7 +30,7 @@
         <div class="utama-kanan">
             <h1>BLOG SPHERE</h1>
             <img src="{{asset ('front/asset/gambar/cewek vibe2.png') }}" alt="">
-            <img src="{{asset ('front/post/asset/gambar/bayangan.png') }}" alt="">
+            <img src="{{asset ('front/asset/gambar/bayangan.png') }}" alt="">
         </div>
     </main>
   
@@ -44,7 +44,7 @@
         <div class="tengah1-kanan">
             <ul>
                 <li><a href="">CONTACT</a></li>
-                <li><a href="index.html">GET STARTED</a></li>
+                <li><a href="{{ route('posts.index') }}">GET STARTED</a></li>
             </ul>
         </div>
     </section>

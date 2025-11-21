@@ -11,6 +11,11 @@ use App\Http\Controllers\PostController;
 // Route::resource('posts', PostController::class);
 Route::get('/', function () {
     return view('posts.startup');
-});
+})->name('posts.startup');
 
-Route::get('/posts', [PostController::class, 'index']);
+Route::get('/index', function (){
+    return view('posts.index');
+})->name('posts.index');
+
+
+// Route::get('/posts', [PostController::class, 'index']);

@@ -1,0 +1,116 @@
+@import url(font/font.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.bagian{
+    padding: 0px 98px;
+}
+
+.kepala{
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    
+}
+
+.kepala ul{
+    display: flex;
+    gap: 200px;
+    list-style: none;
+}
+
+.kepala ul li a{
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+    letter-spacing: 0.30em;
+    font-weight: 400;
+    color: white;
+}
+
+.kepala ul li a:hover{
+    position: relative;
+    top: -5px;
+    color: rgba(0, 0, 0, 0.9);
+    transition: all 1s;
+}
+
+.utama{
+    /* width: 100vw; */
+    height: 800px;  
+    background: url(/front/asset/gambar/latar\ belakang\ buku.png);
+    background-size: cover;
+    border-radius: 0px 0px 40px 40px;
+    display: grid;
+    align-items: center;
+}
+
+.utama h1{
+    width: 855px;
+    font-size: 100px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-left: 100px;
+    color: white;
+    font-family: 'Myriad Pro';
+
+}
+
+.utama svg{
+    margin-top: -250px;
+    margin-left: 100px;
+}
+
+.utama span{
+    margin-top: -450px;
+    width: 590px;
+    font-family: 'Myriad Pro';
+    color: white;
+    margin-left: 98px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.postingan{
+    margin-top: 50px;
+    /* background-color: red; */
+    height: 1000px;
+}
+
+.postingan span{
+    color: black;
+    font-family: 'Myriad Pro';
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.postingan svg{
+    margin-top: 20px;
+}
+
+.kaki{
+    height: 500px;
+    background-color: rgb(82, 80, 80);
+    border-radius: 50px 50px 0px 0px;
+    position: relative;
+}
+
+.kaki::before{
+    content: '';
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    
+}
+

@@ -147,7 +147,7 @@ body{
 }
 
 .tengah1 ul li a:hover{
-    color: rgb(218, 0, 0);
+    color: rgb(241, 22, 22);
     position: relative;
     top: -5px;
     transition: all 0.3s ease;
