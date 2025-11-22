@@ -12,3 +12,21 @@
 - port container (kanan) itu mengikuti isi dalam kontainer milik kita di sini kan saya ada nginx yang di kita akses keluar nah ingat fungsi yang di pakaikan port adalah apk atau tool yang di ajak keluar oleh kontainer oleh kita 
 
 - ingat php artisan web serve dan npm run dev  itu beda 
+
+- funfact alasan kalo kalian lagi build tampilan frontend dan ketika ada perubahan yang terrefresh hanya html atau gambar yang sudah terlink saja yang bakalan terrefresh tapi tidak untuk css dan js karena si browser itu menggunakan chacge untuk penyimpanan untuk menampilkan tampilan web untuk lebih cepat seperti (wadah) yang sudah di siapkan terlebih dahulu agar si browser tidak perlu bulak balik ngambil (download) barang yyang di simpan 
+
+nih yang di chacge oleh si browser
+
+- CSS
+- JavaScript
+- Gambar
+- Font
+- File yang ada di public/build
+
+Kalau pakai Laravel Vite atau Mix, file build biasanya:
+
+app.a8f2c1.css
+
+app.b23c9d.js
+
+- Responses tertentu : Misalnya API response yang punya header:

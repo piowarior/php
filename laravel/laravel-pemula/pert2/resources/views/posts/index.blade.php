@@ -27,9 +27,38 @@
         <span>Grab a cup of coffee and enjoy posts crafted to inspire, inform, and entertain.</span>
     </main>
 
-    <section>
-       <h1>Daftar Postingan</h1>
+    <section class="bagian postingan">
+        <div class="title-postingan">
+            <span>Postingan Terbaru uhuy</span>
+        </div>
+        <svg width="460" height="1" viewBox="0 0 460 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="0.5" x2="460" y2="0.5" stroke="black"/>
+        </svg>
+        <div class="postingan-utama">
+            <div class="wadah-box1">
+                @php
+
+                use App\Models\Post;
+
+                $postingan = Post::all();
+
+                @endphp
+
+                @foreach($postingan as $posting)
+                    <h4>
+
+                        {{ $posting->title }} 
+                        {{ $posting->author }} 
+                        {{ $posting->content }} 
+                    </h4>
+                    
+                @endforeach
+
+            </div>
+        </div>
     </section>
+
+    <footer class="bagian kaki"></footer>
 
     <a href="{route (posts.startup)}">kembali</a>
 </body>
