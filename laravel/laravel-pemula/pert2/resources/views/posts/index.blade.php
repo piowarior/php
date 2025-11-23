@@ -50,6 +50,7 @@
                         {{ $posting->title }} 
                         {{ $posting->author }} 
                         {{ $posting->content }} 
+                        {{ $posting->created_at->format('d / m / Y') }}
                     </h4>
                     
                 @endforeach
@@ -60,6 +61,6 @@
 
     <footer class="bagian kaki"></footer>
 
-    <a href="{route (posts.startup)}">kembali</a>
+    <a href="{{ route ('posts.startup') }}">kembali</a>
 </body>
 </html>
