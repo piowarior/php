@@ -192,6 +192,12 @@
     </section>
 
     <section class="postingan">
+                @php
+                use App\Models\Post;
+
+                $postingan = Post::all();
+
+                @endphp
         <div class="bagian title-postingan">
             <span>Postingan Terbaru</span>
         </div>
@@ -200,19 +206,20 @@
         </svg>
         <div class="container-post">
             <div class="container-post-utama">
-                <ul>
-                    <li><div class="postingan-utama">
-                        <h1>01</h1>
-                        <div class="judul-post">
-                            <h2>5 Tips Merawat Mobil Agar Tetap Prima</h2>
-                            <h4>Pelajari langkah sederhana menjaga performa mobil tetap stabil setiap hari, mulai dari perawatan mesin hingga kebersihan interior…</h4>
-                            
+                <ul >
+                    @foreach ($postingan as $posting) 
+                    <li style="background:url('{{ asset ($posting -> picture) }}') ; background-size:cover">
+                        <div class="postingan-utama">
+                            <h1>{{ sprintf('%02d', $loop->iteration) }}</h1>
+                            <div class="judul-post">
+                                <h2>{{$posting -> title}}</h2>
+                                <h4>{{$posting -> content}}</h4>
+                                
+                            </div>
+                            <h3>{{$posting -> author}}</h3>
                         </div>
-                        <h3>by Daniel Carter</h3>
-                    </div></li>
-                    <li><div class="postingan-utama"></div></li>
-                    <li><div class="postingan-utama"></div></li>
-                    <li><div class="postingan-utama"></div></li>
+                    </li>
+                    @endforeach
                 </ul>
             </div>
         </div>
@@ -295,26 +302,7 @@
         </div>
     </footer>
 
-    @php
 
-                use App\Models\Post;
-
-                $postingan = Post::all();
-
-                @endphp
-
-                @foreach($postingan as $posting)
-                    <h4>
-
-                        {{ $posting->title }} 
-                        <img src="{{ asset($posting->picture) }}" width="300">
-                        {{ $posting->author }}  
-                        {{ $posting->content }} 
-                        {{ $posting->created_at->format('d / m / Y') }}
-                    </h4>
-                    
-                @endforeach
-    
     <a href="post.html">kembali</a>
 
     

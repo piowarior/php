@@ -385,10 +385,10 @@ body{
     color: #FFFFFF;
 }
 
-.container-post-utama ul li:nth-child(1){
-    background: url(../asset/gambar/gambar-postingan1.png);
-    background-size: cover;
-}
+/* .container-post-utama ul li:hover,
+.postingan-utama:hover{
+    padding: 3px;
+} */
 
 /* ----------------------- CREATE POST BAGIAN ------------------------------ */
 
