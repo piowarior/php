@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog post</title>
     <link rel="stylesheet" href="{{ asset('front/asset/main.css') }}">
-    
 </head>
 <body>
     <header class="kepala">
@@ -27,16 +26,276 @@
         <span>Grab a cup of coffee and enjoy posts crafted to inspire, inform, and entertain.</span>
     </main>
 
-    <section class="bagian postingan">
-        <div class="title-postingan">
-            <span>Postingan Terbaru uhuy</span>
+    <section class="berkarya">
+        <div class="bagian title-berkarya">
+            <span>Berkarya Bersama Kami</span>
         </div>
-        <svg width="460" height="1" viewBox="0 0 460 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="bagian" width="460" height="1" viewBox="0 0 460 1" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="0.5" x2="460" y2="0.5" stroke="black"/>
         </svg>
-        <div class="postingan-utama">
+
+        <div class="berkarya-utama">
             <div class="wadah-box1">
-                @php
+                <ul>
+                    <li><div class="berkarya-box">
+                        <div class="box-phase1">
+                            <svg width="36" height="15" viewBox="0 0 36 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M35.7071 8.07088C36.0976 7.68036 36.0976 7.04719 35.7071 6.65667L29.3431 0.292704C28.9526 -0.0978201 28.3195 -0.0978202 27.9289 0.292704C27.5384 0.683229 27.5384 1.31639 27.9289 1.70692L33.5858 7.36377L27.9289 13.0206C27.5384 13.4112 27.5384 14.0443 27.9289 14.4348C28.3195 14.8254 28.9526 14.8254 29.3431 14.4348L35.7071 8.07088ZM0 7.36377L-8.74228e-08 8.36377L35 8.36377L35 7.36377L35 6.36377L8.74228e-08 6.36377L0 7.36377Z" fill="black"/>
+                            </svg>
+
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="14" fill="white"/>
+                            </svg>
+
+                        </div>
+                        <div class="box-phase2">
+                            <h4>01</h4>
+                            <span>Drive Into a World of Stories</span>
+                        </div>
+                        <div class="box-phase3">
+                            <div class="box-phase3-kiri">
+                                <img src="{{ asset ('front/asset/gambar/gambar-love.png') }}" alt="">
+                            </div>
+                            <div class="box-phase3-kanan">
+                                <h4 style="font-weight: 400;"> 25 / 11 / 2025 </h4>
+                                <svg width="90" height="1" viewBox="0 0 90 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <line y1="0.5" x2="90" y2="0.5" stroke="black"/>
+                                </svg>
+                                <h4 style="font-weight: bold; margin-top: -15px; letter-spacing: 0.05em;">PIOWARIOR</h4>
+                            </div>
+                        </div>
+                    </div></li>
+                    <li><div class="berkarya-box">
+                        <div class="box-phase1">
+                            <svg width="36" height="15" viewBox="0 0 36 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M35.7071 8.07088C36.0976 7.68036 36.0976 7.04719 35.7071 6.65667L29.3431 0.292704C28.9526 -0.0978201 28.3195 -0.0978202 27.9289 0.292704C27.5384 0.683229 27.5384 1.31639 27.9289 1.70692L33.5858 7.36377L27.9289 13.0206C27.5384 13.4112 27.5384 14.0443 27.9289 14.4348C28.3195 14.8254 28.9526 14.8254 29.3431 14.4348L35.7071 8.07088ZM0 7.36377L-8.74228e-08 8.36377L35 8.36377L35 7.36377L35 6.36377L8.74228e-08 6.36377L0 7.36377Z" fill="black"/>
+                            </svg>
+
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="14" fill="white"/>
+                            </svg>
+
+                        </div>
+                        <div class="box-phase2">
+                            <h4>02</h4>
+                            <span>Your Pink Haven of Beauty Tips</span>
+                        </div>
+                        <div class="box-phase3">
+                            <div class="box-phase3-kiri">
+                                <img src="{{ asset ('front/asset/gambar/gambar-love.png') }}" alt="">
+                            </div>
+                            <div class="box-phase3-kanan">
+                                <h4 style="font-weight: 400;"> 25 / 11 / 2025 </h4>
+                                <svg width="90" height="1" viewBox="0 0 90 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <line y1="0.5" x2="90" y2="0.5" stroke="black"/>
+                                </svg>
+                                <h4 style="font-weight: bold; margin-top: -15px; letter-spacing: 0.05em;">PIOWARIOR</h4>
+                            </div>
+                        </div>
+                    </div></li>
+                    <li><div class="berkarya-box">
+                        <div class="box-phase1">
+                            <svg width="36" height="15" viewBox="0 0 36 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M35.7071 8.07088C36.0976 7.68036 36.0976 7.04719 35.7071 6.65667L29.3431 0.292704C28.9526 -0.0978201 28.3195 -0.0978202 27.9289 0.292704C27.5384 0.683229 27.5384 1.31639 27.9289 1.70692L33.5858 7.36377L27.9289 13.0206C27.5384 13.4112 27.5384 14.0443 27.9289 14.4348C28.3195 14.8254 28.9526 14.8254 29.3431 14.4348L35.7071 8.07088ZM0 7.36377L-8.74228e-08 8.36377L35 8.36377L35 7.36377L35 6.36377L8.74228e-08 6.36377L0 7.36377Z" fill="black"/>
+                            </svg>
+
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="14" fill="white"/>
+                            </svg>
+
+                        </div>
+                        <div class="box-phase2">
+                            <h4>03</h4>
+                            <span>Live Beautifully</span>
+                        </div>
+                        <div class="box-phase3">
+                            <div class="box-phase3-kiri">
+                                <img src="{{ asset ('front/asset/gambar/gambar-love.png') }}" alt="">
+                            </div>
+                            <div class="box-phase3-kanan">
+                                <h4 style="font-weight: 400;"> 25 / 11 / 2025 </h4>
+                                <svg width="90" height="1" viewBox="0 0 90 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <line y1="0.5" x2="90" y2="0.5" stroke="black"/>
+                                </svg>
+                                <h4 style="font-weight: bold; margin-top: -15px; letter-spacing: 0.05em;">PIOWARIOR</h4>
+                            </div>
+                        </div>
+                    </div></li>
+                    <li><div class="berkarya-box">
+                        <div class="box-phase1">
+                            <svg width="36" height="15" viewBox="0 0 36 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M35.7071 8.07088C36.0976 7.68036 36.0976 7.04719 35.7071 6.65667L29.3431 0.292704C28.9526 -0.0978201 28.3195 -0.0978202 27.9289 0.292704C27.5384 0.683229 27.5384 1.31639 27.9289 1.70692L33.5858 7.36377L27.9289 13.0206C27.5384 13.4112 27.5384 14.0443 27.9289 14.4348C28.3195 14.8254 28.9526 14.8254 29.3431 14.4348L35.7071 8.07088ZM0 7.36377L-8.74228e-08 8.36377L35 8.36377L35 7.36377L35 6.36377L8.74228e-08 6.36377L0 7.36377Z" fill="black"/>
+                            </svg>
+
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="14" fill="white"/>
+                            </svg>
+
+                        </div>
+                        <div class="box-phase2">
+                            <h4>04</h4>
+                            <span>Motivational Tone</span>
+                        </div>
+                        <div class="box-phase3">
+                            <div class="box-phase3-kiri">
+                                <img src="{{ asset ('front/asset/gambar/gambar-love.png') }}" alt="">
+                            </div>
+                            <div class="box-phase3-kanan">
+                                <h4 style="font-weight: 400;"> 25 / 11 / 2025 </h4>
+                                <svg width="90" height="1" viewBox="0 0 90 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <line y1="0.5" x2="90" y2="0.5" stroke="black"/>
+                                </svg>
+                                <h4 style="font-weight: bold; margin-top: -15px; letter-spacing: 0.05em;">PIOWARIOR</h4>
+                            </div>
+                        </div>
+                    </div></li>
+                    <li><div class="berkarya-box">
+                        <div class="box-phase1">
+                            <svg width="36" height="15" viewBox="0 0 36 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M35.7071 8.07088C36.0976 7.68036 36.0976 7.04719 35.7071 6.65667L29.3431 0.292704C28.9526 -0.0978201 28.3195 -0.0978202 27.9289 0.292704C27.5384 0.683229 27.5384 1.31639 27.9289 1.70692L33.5858 7.36377L27.9289 13.0206C27.5384 13.4112 27.5384 14.0443 27.9289 14.4348C28.3195 14.8254 28.9526 14.8254 29.3431 14.4348L35.7071 8.07088ZM0 7.36377L-8.74228e-08 8.36377L35 8.36377L35 7.36377L35 6.36377L8.74228e-08 6.36377L0 7.36377Z" fill="black"/>
+                            </svg>
+
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="14" fill="white"/>
+                            </svg>
+
+                        </div>
+                        <div class="box-phase2">
+                            <h4>05</h4>
+                            <span>Clean Minimalist</span>
+                        </div>
+                        <div class="box-phase3">
+                            <div class="box-phase3-kiri">
+                                <img src="{{ asset ('front/asset/gambar/gambar-love.png') }}" alt="">
+                            </div>
+                            <div class="box-phase3-kanan">
+                                <h4 style="font-weight: 400;"> 25 / 11 / 2025 </h4>
+                                <svg width="90" height="1" viewBox="0 0 90 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <line y1="0.5" x2="90" y2="0.5" stroke="black"/>
+                                </svg>
+                                <h4 style="font-weight: bold; margin-top: -15px; letter-spacing: 0.05em;">PIOWARIOR</h4>
+                            </div>
+                        </div>
+                    </div></li>
+                </ul>
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="garis-pembatas-berkarya">
+        <svg width="1000" height="43" viewBox="0 0 1000 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="0.5" x2="1000" y2="0.5" stroke="black"/>
+            <line x1="150" y1="21.5" x2="850" y2="21.5" stroke="black"/>
+            <line x1="350" y1="42.5" x2="650" y2="42.5" stroke="black"/>
+            </svg>
+    </section>
+
+    <section class="postingan">
+        <div class="bagian title-postingan">
+            <span>Postingan Terbaru</span>
+        </div>
+        <svg class="bagian svg-title-postingan" width="460" height="1" viewBox="0 0 460 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="0.5" x2="460" y2="0.5" stroke="black"/>
+        </svg>
+        <div class="container-post">
+            <div class="container-post-utama">
+                <ul>
+                    <li><div class="postingan-utama">
+                        <h1>01</h1>
+                        <div class="judul-post">
+                            <h2>5 Tips Merawat Mobil Agar Tetap Prima</h2>
+                            <h4>Pelajari langkah sederhana menjaga performa mobil tetap stabil setiap hari, mulai dari perawatan mesin hingga kebersihan interior…</h4>
+                            
+                        </div>
+                        <h3>by Daniel Carter</h3>
+                    </div></li>
+                    <li><div class="postingan-utama"></div></li>
+                    <li><div class="postingan-utama"></div></li>
+                    <li><div class="postingan-utama"></div></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="create-post">
+        <div class="create-post-kiri">
+            <h2>Start a New Story</h2>
+            <p>Writing is a simple way to capture moments that matter. Even the smallest idea can turn into something meaningful once you let it out.</p>
+            <button>New Post</button>
+        </div>
+        <div class="create-post-kanan">
+            <svg width="1" height="365" viewBox="0 0 1 365" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0.5" y1="2.18555e-08" x2="0.499984" y2="365" stroke="black"/>
+            </svg>
+            <div class="daily">
+                <h1>Daily Inspiration Box</h1>
+                <p>Take your time, feel the moment, and let the words flow naturally. Every story you share has the power to inspire others, and maybe even yourself. Just begin — the rest will follow.</p>
+
+                <p>Writing isn’t about being perfect — it’s about letting your thoughts breathe. Even a single sentence you write today can be the start of something meaningful, something that only you can create.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-main">
+
+            <div class="bagian footer-kiri">
+                <h1>BLOG SPHERE</h1>
+                <p>A space where thoughts are gently preserved, captured before they fade. Every word here becomes a quiet reminder of who you were and who you're becoming. It’s a place to breathe, to slow down, and to let your ideas find their own shape.</p>
+                <svg width="492" height="1" viewBox="0 0 492 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="-4.37114e-08" y1="0.5" x2="492" y2="0.499957" stroke="white"/>
+                </svg>
+                <p style="font-size: 15px;">Follow:</p>
+                <div class="footer-icon">
+                    <ul>
+                        <li><a href=""><img src=" {{asset ('front/asset/icon/github.png') }}" alt=""></a></li>
+                        <li><a href=""><img src="{{asset ('front/asset/icon/facebook (1).png') }}" alt=""></a></li>
+                        <li><a href=""><img style="width: 35px;" src=" {{asset ('front/asset/icon/whatsapp.png') }}" alt=""></a></li>
+                        <li><a href=""><img style="width: 35px;" src=" {{asset ('front/asset/icon/instagram (1).png') }}" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="footer-kanan">
+                    <div class="blog">
+                        <h3>Blog</h3>
+                        <ul>
+                            <li>Latest Posts</li>
+                            <li>Trending Stories</li>
+                            <li>Writing Tips</li>
+                            <li>Deep Dive Articles</li>
+                            <li>Weekly Highlights</li>
+                        </ul>
+                    </div>
+                    <div class="connect">
+                        <h3>Connect</h3>
+                        <ul>
+                            <li>Contact Form</li>
+                            <li>Join the Community</li>
+                            <li>Collaborate With Us</li>
+                            <li>Social Media Links</li>   
+                        </ul>
+                    </div>
+                    <div class="resource">
+                        <h3>Resource</h3>
+                        <ul>
+                            <li>Style Guide</li>
+                            <li>Content Toolkit</li>
+                            <li>FAQ & Support</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <div class="copyright">
+            <svg width="200" height="1" viewBox="0 0 200 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="200" y2="0.5" stroke="white"/>
+            </svg>
+            <h4>© 2025 Pio Warior — Crafted with care.</h4>
+        </div>
+    </footer>
+
+    @php
 
                 use App\Models\Post;
 
@@ -48,19 +307,17 @@
                     <h4>
 
                         {{ $posting->title }} 
-                        {{ $posting->author }} 
+                        <img src="{{ asset($posting->picture) }}" width="300">
+                        {{ $posting->author }}  
                         {{ $posting->content }} 
                         {{ $posting->created_at->format('d / m / Y') }}
                     </h4>
                     
                 @endforeach
+    
+    <a href="post.html">kembali</a>
 
-            </div>
-        </div>
-    </section>
+    
 
-    <footer class="bagian kaki"></footer>
-
-    <a href="{{ route ('posts.startup') }}">kembali</a>
 </body>
 </html>
