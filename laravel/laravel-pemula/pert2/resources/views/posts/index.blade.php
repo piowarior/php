@@ -229,7 +229,7 @@
         <div class="create-post-kiri">
             <h2>Start a New Story</h2>
             <p>Writing is a simple way to capture moments that matter. Even the smallest idea can turn into something meaningful once you let it out.</p>
-            <button>New Post</button>
+            <button><a href="{{route ('posts.createpost')}}">New Post</a></button>
         </div>
         <div class="create-post-kanan">
             <svg width="1" height="365" viewBox="0 0 1 365" fill="none" xmlns="http://www.w3.org/2000/svg">
