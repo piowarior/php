@@ -14,4 +14,14 @@ class Post extends Model
         'author',
         'content',
     ];
+
+    public function getPictureUrlAttribute()
+    {
+        if (strpos($this->picture, '/') !== false) {
+            return asset($this->picture);
+        }
+
+        return asset('images/' . $this->picture);
+    }
+
 }
