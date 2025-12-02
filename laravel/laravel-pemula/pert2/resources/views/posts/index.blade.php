@@ -303,7 +303,7 @@
     </footer>
 
 
-    <a href="post.html">kembali</a>
+    <a href="{{route ('posts.startup')}}">kembali</a>
 
     
 

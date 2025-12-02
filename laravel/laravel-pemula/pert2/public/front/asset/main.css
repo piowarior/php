@@ -431,12 +431,26 @@ body{
     height: 90px;
     border-radius: 10px;
     background-color: #F0E4E4;
+    border: none;
+}
+
+.create-post-kiri button:hover{
+    margin-top: -5px;
+    /* color: #838383; */
+    a{
+    color: #838383;;
+    }
+}
+
+
+
+.create-post-kiri button a{
     font-family: 'Myriad Pro';
     letter-spacing: -0.05em;
     font-size: 30px;
     font-weight: bold;
     color: black;
-    border: none;
+    text-decoration: none;
 }
 
 .create-post-kanan{
