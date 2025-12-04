@@ -208,7 +208,7 @@
             <div class="container-post-utama">
                 <ul >
                     @foreach ($postingan as $posting) 
-                    <li style="background:url('{{ $posting->picture_url }}'); background-size:cover; border-radius: 30px; background-position: top;">
+                    <li style="background:url('{{ $posting->picture_url }}'); background-size:cover; border-radius: 30px; background-position: center;">
                         <div class="postingan-utama">
                             <h1>{{ sprintf('%02d', $loop->iteration) }}</h1>
                             <div class="judul-post">

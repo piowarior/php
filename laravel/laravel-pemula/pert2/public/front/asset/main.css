@@ -323,6 +323,17 @@ body{
     
 }
 
+
+
+.container-post-utama ul li:hover{
+    margin-top: -5px;    
+    .postingan-utama:hover{
+        margin-top: -5px;
+    }
+}
+
+
+
 .postingan-utama{
     width: 650px;
     height: 800px;
